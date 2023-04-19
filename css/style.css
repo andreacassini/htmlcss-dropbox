@@ -8,6 +8,17 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.center-button{
+    text-align: center;
+    background-color: rgba(0,96,254,255);
+    border-style: none;
+    padding: 8px 35px;
+    margin-bottom: 50px;
+}
+
+.white{
+    color: white;
+}
 /* Header */
 .header{
     margin-bottom: 50px;
@@ -108,14 +119,14 @@ ul{
     }
 
     .img-jumbo{
-        width: 65vh;
+        width: 100%;
         position: absolute;
         top: 0;
         left: -3%;
     }
 
     .arrow{
-        padding-top: 30px;
+        padding-top: 70px;
     }
     /* END JUMBOTRON */
 
@@ -265,5 +276,6 @@ ul{
     .margin-bottom-25{
         margin-bottom: 25px;
     }
+
     /* END PLAN */
 /* End Main */
