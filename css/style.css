@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    height: 3000px;
 }
 
 /* Header */
@@ -142,25 +143,21 @@ ul{
     }
 
     .row-plan{
-        height: 1000px;
         margin-top: 25px;
         display: flex;
         font-size: 10px;
     }
 
     .left-col{
-        height: 700px;
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
         margin-right: 40px;
     }
     .mid-col{
-        height: 700px;
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
     }
     .right-col{
-        height: 700px;
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
         margin-left: 40px;
@@ -169,7 +166,7 @@ ul{
     .plan-text{
         padding-top: 20px;
         line-height: 2;
-        margin: 0px 20px;
+        margin: 0px 19px;
     }
     .border{
         border-bottom: 1px solid rgba(128, 128, 128, 0.356);
@@ -202,7 +199,7 @@ ul{
         background-color: rgba(0,96,254,255);
         color: white;
         border-style: none;
-        padding: 8px 24px;
+        padding: 8px 26px;
         margin-bottom: 50px;
     }
 
@@ -224,5 +221,22 @@ ul{
         width: 22%;
         border-color: rgba(128, 128, 128, 0.137);
     }
+    /* BIG ROW PLAN*/
+    .big-row-plan{
+        width: 100%;
+        display: flex;
+        margin-top: 45px;
+        font-size: 10px;
+    }
+    .col-100{
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.356);
+    }
+
+.right{
+    float: right;
+}
+    /* END BIG ROW PLAN*/
+    /*  */
     /* END PLAN */
 /* End Main */
