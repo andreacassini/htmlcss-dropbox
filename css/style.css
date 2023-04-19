@@ -23,6 +23,7 @@ body{
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 100;
 }
 
 .left-col-header{
@@ -34,7 +35,7 @@ body{
     text-align: right;
 }
 
-ul li{
+.inblock{
     display: inline-block;
 }
 
@@ -56,6 +57,10 @@ ul li{
 
 .no-decoration{
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
 }
 /* End Header */
 
@@ -116,6 +121,99 @@ ul li{
     /* END JUMBOTRON */
 
     /* PLAN */
+    .small-container{
+        width: 50%;
+        margin: 0 auto;
+        height: 600px;
+        padding-top: 85px;
+    }
 
+    h2{
+        margin-bottom: 35px;
+        font-size: 31px;
+    }
+
+    input{
+        vertical-align: middle;
+    }
+    .radio-button{
+        font-size: 11px;
+        padding-right: 35px;
+    }
+
+    .row-plan{
+        height: 1000px;
+        margin-top: 25px;
+        display: flex;
+        font-size: 10px;
+    }
+
+    .left-col{
+        height: 700px;
+        width: calc(100% / 3);
+        border: 1px solid grey;
+        margin-right: 40px;
+    }
+    .mid-col{
+        height: 700px;
+        width: calc(100% / 3);
+        border: 1px solid grey;
+    }
+    .right-col{
+        height: 700px;
+        width: calc(100% / 3);
+        border: 1px solid grey;
+        margin-left: 40px;
+    }
+
+    .plan-text{
+        padding-top: 20px;
+        line-height: 2;
+        margin: 0px 20px;
+    }
+    .border{
+        border-bottom: 1px solid grey;
+        text-align: center;
+        padding: 6px 0px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+
+    .ul-plan{
+        transform: translate(-4px, 0px);
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    li{
+        padding: 5px 0;
+        line-height: 1.3;
+    }
+    .icons{
+        padding-right: 2px;
+    }
+
+    .plan-button{
+        background-color: rgba(0,96,254,255);
+        color: white;
+        border-style: none;
+        padding: 8px 24px;
+        margin-bottom: 50px;
+    }
+
+    .acquista{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    h4{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
     /* END PLAN */
 /* End Main */
