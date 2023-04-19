@@ -151,18 +151,18 @@ ul{
     .left-col{
         height: 700px;
         width: calc(100% / 3);
-        border: 1px solid grey;
+        border: 1px solid rgba(128, 128, 128, 0.356);
         margin-right: 40px;
     }
     .mid-col{
         height: 700px;
         width: calc(100% / 3);
-        border: 1px solid grey;
+        border: 1px solid rgba(128, 128, 128, 0.356);
     }
     .right-col{
         height: 700px;
         width: calc(100% / 3);
-        border: 1px solid grey;
+        border: 1px solid rgba(128, 128, 128, 0.356);
         margin-left: 40px;
     }
 
@@ -172,7 +172,7 @@ ul{
         margin: 0px 20px;
     }
     .border{
-        border-bottom: 1px solid grey;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.356);
         text-align: center;
         padding: 6px 0px;
     }
@@ -214,6 +214,15 @@ ul{
     h4{
         margin-top: 30px;
         margin-bottom: 10px;
+    }
+
+    .grey{
+        color: grey;
+    }
+
+    .small-hr{
+        width: 22%;
+        border-color: rgba(128, 128, 128, 0.137);
     }
     /* END PLAN */
 /* End Main */
