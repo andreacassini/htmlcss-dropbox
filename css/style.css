@@ -233,10 +233,24 @@ ul{
         border: 1px solid rgba(128, 128, 128, 0.356);
     }
 
-.right{
-    float: right;
-}
+    .right{
+        float: right;
+    }
     /* END BIG ROW PLAN*/
-    /*  */
+    .col-60{
+        width: 60%;
+        margin-top: 60px;
+    }
+
+    .col-40{
+        width: 40%;
+        margin-top: 60px;
+        margin-left: 40px;
+        padding-top: 40px;
+        padding-right: 82px;
+    }
+    .img-partner{
+        width: 100%;
+    }
     /* END PLAN */
 /* End Main */
