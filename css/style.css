@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    height: 3000px;
 }
 
 /* Header */
@@ -73,6 +72,7 @@ ul{
     .big-container{
         width: 58%;
         margin: 0 auto;
+        padding-bottom: 10px;
     }
 
     h1{ 
@@ -96,7 +96,6 @@ ul{
         margin-bottom: 30px;
     }
 
-
     .jumbotron-button{
         background-color: rgba(0,96,254,255);
         color: white;
@@ -109,15 +108,14 @@ ul{
     }
 
     .img-jumbo{
-        width: 105%;
+        width: 65vh;
         position: absolute;
         top: 0;
         left: -3%;
     }
 
     .arrow{
-        margin-top: 50px;
-        margin-bottom: 15px;
+        padding-top: 30px;
     }
     /* END JUMBOTRON */
 
@@ -125,8 +123,7 @@ ul{
     .small-container{
         width: 50%;
         margin: 0 auto;
-        height: 600px;
-        padding-top: 85px;
+        margin-top: 120px;
     }
 
     h2{
@@ -141,26 +138,29 @@ ul{
         font-size: 11px;
         padding-right: 35px;
     }
-
+    
     .row-plan{
         margin-top: 25px;
         display: flex;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .left-col{
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
         margin-right: 40px;
+        padding-bottom: 40px;
     }
     .mid-col{
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
+        padding-bottom: 40px;
     }
     .right-col{
         width: calc(100% / 3);
         border: 1px solid rgba(128, 128, 128, 0.356);
         margin-left: 40px;
+        padding-bottom: 40px;
     }
 
     .plan-text{
@@ -199,7 +199,7 @@ ul{
         background-color: rgba(0,96,254,255);
         color: white;
         border-style: none;
-        padding: 8px 26px;
+        padding: 8px 35px;
         margin-bottom: 50px;
     }
 
@@ -226,7 +226,7 @@ ul{
         width: 100%;
         display: flex;
         margin-top: 45px;
-        font-size: 10px;
+        font-size: 11px;
     }
     .col-100{
         width: 100%;
