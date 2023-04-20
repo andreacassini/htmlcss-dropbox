@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -52,7 +52,7 @@ body{
 }
 
 .header-text{
-    padding: 13px;
+    padding: 13px 20px;
 }
 
 .logo-img{
@@ -82,13 +82,13 @@ ul{
         background-color: rgba(180,208,231,255);
     }
     .big-container{
-        width: 58%;
+        width: 65%;
         margin: 0 auto;
         padding-bottom: 10px;
     }
 
     h1{ 
-        font-size: 55px;
+        font-size: 75px;
         font-weight: 800;
         padding-top: 70px;
         padding-bottom: 45px;
@@ -102,7 +102,6 @@ ul{
         width: 35%;
         font-size: 14px;
         padding: 0px 5px;
-        background-color:blue;
     }
 
     .jumbotron-text{
@@ -118,26 +117,25 @@ ul{
     .right-col-jumbotron{
         position: relative;
         width: 65%;
-        background-color: red;
     }
 
     .img-jumbo{
-        width: 680px;
+        width: 800px;
         position: absolute;
         top: 0;
         right: 0;
     }
 
     .arrow{
-        padding-top: 70px;
+        padding-top: 110px;
     }
     /* END JUMBOTRON */
 
     /* PLAN */
     .small-container{
-        width: 50%;
+        width: 55%;
         margin: 0 auto;
-        margin-top: 120px;
+        margin-top: 140px;
     }
 
     h2{
