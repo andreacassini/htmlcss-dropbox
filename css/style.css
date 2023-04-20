@@ -19,6 +19,7 @@ body{
 .white{
     color: white;
 }
+
 /* Header */
 .header{
     margin-bottom: 50px;
@@ -99,8 +100,9 @@ ul{
     }
     .left-col-jumbotron{
         width: 35%;
-        font-size: 12px;
+        font-size: 14px;
         padding: 0px 5px;
+        background-color:blue;
     }
 
     .jumbotron-text{
@@ -116,6 +118,7 @@ ul{
     .right-col-jumbotron{
         position: relative;
         width: 65%;
+        background-color: red;
     }
 
     .img-jumbo{
@@ -146,14 +149,14 @@ ul{
         vertical-align: middle;
     }
     .radio-button{
-        font-size: 11px;
+        font-size: 12px;
         padding-right: 35px;
     }
     
     .row-plan{
         margin-top: 25px;
         display: flex;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .left-col{
@@ -186,7 +189,7 @@ ul{
     }
 
     h3{
-        font-size: 18px;
+        font-size: 22px;
     }
     .bold{
         font-weight: bold;
@@ -237,7 +240,7 @@ ul{
         width: 100%;
         display: flex;
         margin-top: 45px;
-        font-size: 11px;
+        font-size: 12px;
     }
     .col-100{
         width: 100%;
@@ -258,7 +261,7 @@ ul{
         margin-top: 60px;
         margin-left: 40px;
         padding-top: 40px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .img-partner{
         width: 100%;
@@ -278,28 +281,30 @@ ul{
     }
 
     /* END PLAN */
+
     /* SECTION BUSINESS */
+    .section-business{
+        margin-top: 130px;
+    }
     .row-section-business{
         width: 100%;
-        height: 1000px;
-        background-color: red;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 100px;
     }
 
     .col-33{
-        width: calc(100% / 3);
-        height: 500px;
-        background-color: blue;
-        border: 2px solid black;
+        width: calc(100% / 3 - 14px);
+        margin: 30px 7px;
+        font-size: 14px;
     }
 
-
-    h2{
-        height: 100px;
-        background-color: green;
+    .img-business{
+        width: 100%;
+        margin-bottom: 10px;
     }
     /* END SECTION BUSINESS */
+
     /* LOGOS */
     .row-logos{
         display: flex;
@@ -325,6 +330,7 @@ ul{
         border: 2px solid black;
     }
     /* END LOGOS */
+
     /* section */
     .section{
         width: 100%;
@@ -335,9 +341,11 @@ ul{
         color: brown;
     }
     /* end section */
+
     /* FAQ */
 
     /* END FAQ */
+
     /* FOOTER */
     .footer{
         background-color: black;
