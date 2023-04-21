@@ -229,8 +229,9 @@ ul{
     }
 
     .acquista{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 25px;
+        line-height: 1.4;
     }
 
     h4{
@@ -316,6 +317,7 @@ ul{
         width: calc(100% / 3 - 14px);
         margin: 30px 7px;
         font-size: 14px;
+        padding-top: 30px;
     }
 
     .img-business{
@@ -451,11 +453,34 @@ ul{
         line-height: 1.6;
     }
     .footer-text{
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .padding-100-y{
         padding: 100px 0;
+    }
+
+    .hr-footer{
+        width: 10%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .language{
+        color: rgb(169, 169, 169);
+        font-size: 12px;
+    }
+
+    .padding-5-x{
+        padding: 0px 5px;
+    }
+
+    .arrow-up{
+        vertical-align: sub;
+    }
+
+    .margin-bottom-15{
+        margin-bottom: 15px;
     }
     /* END FOOTER */
 /* End Main */
