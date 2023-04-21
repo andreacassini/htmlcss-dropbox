@@ -334,37 +334,46 @@ ul{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        filter: invert(1);
     }
     .green-back{
         background-color: rgba(162,210,154,255);
+        border: 15px solid rgba(209,233,205,255);
     }
 
     .bordeaux-back{
         background-color: rgba(97,9,42,255);
+            border: 15px solid transparent;
     }
 
     .blue-back{
         background-color: rgba(1,147,207,255);
+            border: 15px solid transparent;
     }
 
     .red-back{
         background-color: rgba(254,28,29,255);
+            border: 15px solid transparent;
     }
 
     .dark-red-back{
         background-color: rgba(213,0,31,255);
+            border: 15px solid transparent;
     }
 
     .light-blue-back{
         background-color: rgba(180,208,231,255);
+            border: 15px solid transparent;
     }
 
     .dark-blue-back{
         background-color: rgba(13,36,129,255);
+            border: 15px solid transparent;
     }
 
     .yellow-back{
         background-color: rgba(254,217,48,255);
+            border: 15px solid transparent;
     } 
 
     .img-central-logo{
