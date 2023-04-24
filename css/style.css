@@ -12,6 +12,9 @@ body, a{
     color: white;
 }
 
+.black{
+    color: black;
+}
 .bordeaux{
     color: rgba(97,9,42,255);
 }
@@ -30,13 +33,14 @@ body, a{
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 30px 0;
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
     z-index: 100;
 }
+
 
 .left-col-header{
     margin-left: 18px;
@@ -52,7 +56,9 @@ body, a{
 }
 
 .header-text{
-    padding: 13px 20px;
+    margin: 10px 13px;
+    padding: 10px 12px;
+    color: black;
 }
 
 .logo-img{
@@ -71,6 +77,11 @@ body, a{
 
 ul{
     list-style: none;
+}
+
+.header-text:hover{
+    background-color: rgba(0,96,254,255);
+    color: white;
 }
 /* End Header */
 
